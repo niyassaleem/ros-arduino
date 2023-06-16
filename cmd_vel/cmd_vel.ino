@@ -1,14 +1,10 @@
-/*
-   rosserial PubSub Example
-   Prints "hello world!" and toggles led
-*/
+
 
 #include <ros.h>
 #include <geometry_msgs/Twist.h>
 #include <std_msgs/String.h>
 #include <std_msgs/Empty.h>
 
-char hello[13];
 ros::NodeHandle  nh;
 
 void callback_func(const geometry_msgs::Twist& cmdVel)
