@@ -45,16 +45,13 @@ void callback_func(const geometry_msgs::Twist& cmdVel)
     digitalWrite(9, 0);
     return 0;
   }
-  return stop;
-}
-
-
-void stop()
-{
+  else
+  {
   digitalWrite(6, 0);
   digitalWrite(7, 0);
   digitalWrite(8, 0);
   digitalWrite(9, 0);
+  }
 }
 
 
