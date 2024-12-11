@@ -112,5 +112,3 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 Special thanks to the ROS and Arduino communities for providing excellent resources and documentation.
 
 ---
-
-Let me know if you'd like to add or modify any section!
